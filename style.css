@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(128, 128, 128, 0.247);
+}
+.navigationbar{
+    position: sticky;
+    top:0.5%;
+}
+.navigationbar ul{
+    list-style-type: none;
+    padding: 1%;
+    background-color: white;
+}
+.navigationbar ul li{
+    display: inline;
+
+}
+.navigationbar ul li a{
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    color: rgb(228, 197, 111);
+}
+.navigationbar ul li a:hover{
+    color: wheat;
+    background-color: brown;
+    box-shadow: 2px 2px 5px 2px black;
+}
+#websitelogo{
+    display: inline;
+    width: 3.5%;
+    border-radius: 50%;
+    float: left;
+}
+#websitelogo:hover{
+    box-shadow: 2px 2px 5px 2px black;
+}
+#greeting{
+    font-family: calibri;
+    font-size: xx-large;
+}
+#textabout{
+    font-family: calibri;
+    font-size: larger;
+
+}
+.indexing{
+    flex: 1;
+    float:left;
+    margin-right: 1%;
+    
+    height: 100%;
+    position: sticky;
+     top:10%;
+
+}
+.indexing ul li>a{
+    text-decoration: none;
+    font-size: larger;
+}
+.indexing ul li>a:visited{
+    color: blue;
+}
+.bodycontent{
+    display: flex;
+
+}
+.indexing ul{
+    list-style: none;
+}
+.indexing ol li{
+    margin-bottom: 5%;
+}
+.content{
+    flex:3;
+}
+.indexing ul>li{
+    margin-bottom: 10%;
+    background-color: white;
+    border-right: 0.5em solid green;
+}
+.indexing ul>li:hover{
+    background-color:green;
+
+}
+.note{
+    background-color: white;
+    border-left: 0.2em solid gray;
+    font-style: italic;
+}
+.gallerycontent{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+}
+.gallerycontent img, .gallerycontent iframe{
+    width: 98%;
+    height: 98%;
+    border: 2px solid black;
+}
+.gallerycontent img:hover, .gallerycontent iframe:hover{
+    box-shadow: 2px 2px 5px 5px white;
+}
+.gallerycontent img:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 99%;
+    width: 99%;
+}
+.gallerycontent img:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 99%;
+}
+.headsec{
+    background-color: rgb(152, 56, 230);
+    padding-bottom: 8%;
+}
+#myimage{
+    float: left;
+}
+.myname{
+
+    text-align: center;
+}
+.details{
+    clear:both;
+
+}
